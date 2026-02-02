@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page">
+      <header class="nav">
+        <div class="nav-left">
+          <span class="nav-brand">Portfolio</span>
+        </div>
+        <nav class="nav-links">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <main>
+        <!-- HERO -->
+        <section class="hero" id="about">
+          <div class="hero-text">
+            <p class="hero-tagline">Open to Opportunities</p>
+            <h1 class="hero-title">ALIYAN SALEEM</h1>
+            <p class="hero-role">Front-end Developer & Advance Python</p>
+            <p class="hero-description">
+              I craft clean, modern web experiences with a focus on detail,
+              performance, and luxury aesthetics. I love turning ideas into
+              beautiful interfaces using HTML, CSS, Tailwind CSS, and Python.
+            </p>
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">View Projects</a>
+              <a href="#contact" class="btn btn-ghost">Hire Me</a>
+            </div>
+          </div>
+          <div class="hero-photo-card">
+            <div class="hero-photo-border">
+              <!-- Save your own picture as profile.jpg in the same folder -->
+              <img
+                src="picture/WhatsApp Image 2026-02-02 at 15.17.04.jpeg"
+                alt="My portrait"
+                class="hero-photo"
+              />
+            </div>
+            <div class="hero-badge">
+              <span>Available for Work</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="section" id="skills">
+          <div class="section-header">
+            <h2>Skills & Tools</h2>
+            <p>Technologies I use to build fast and elegant digital experiences.</p>
+          </div>
+          <div class="skills-grid">
+            <article class="skill-card">
+              <div class="skill-icon">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                  alt="HTML5 logo"
+                />
+              </div>
+              <h3>HTML5</h3>
+              <p>Semantic, accessible, and SEO-friendly structure for modern websites.</p>
+            </article>
+            <article class="skill-card">
+              <div class="skill-icon">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                  alt="CSS3 logo"
+                />
+              </div>
+              <h3>CSS3</h3>
+              <p>Beautiful layouts, animations, and responsive design with clean CSS.</p>
+            </article>
+            <article class="skill-card">
+              <div class="skill-icon">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
+                  alt="Tailwind CSS logo"
+                />
+              </div>
+              <h3>Tailwind CSS</h3>
+              <p>Utility-first styling for rapid, consistent, and modern user interfaces.</p>
+            </article>
+            <article class="skill-card">
+              <div class="skill-icon">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                  alt="JavaScript logo"
+                />
+              </div>
+              <h3>JavaScript</h3>
+              <p>Interactive and dynamic user experiences with modern JavaScript.</p>
+            </article>
+            <article class="skill-card">
+              <div class="skill-icon">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                  alt="Python logo"
+                />
+              </div>
+              <h3>Python</h3>
+              <p>Backend scripts, automation, and data-driven tools using Python.</p>
+            </article>
+          </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section class="section" id="projects">
+          <div class="section-header">
+            <h2>Selected Projects</h2>
+            <p>Showcasing the quality and attention to detail I bring to my work.</p>
+          </div>
+          <div class="projects-grid">
+            <article class="project-card">
+              <div class="project-header">
+                <h3>Luxury Landing Page</h3>
+                <span class="project-tag">HTML • CSS • Tailwind</span>
+              </div>
+              <p>
+                A premium, responsive landing page with a dark-gold color palette,
+                smooth animations, and high-end typography.
+              </p>
+              <div class="project-footer">
+                <span class="project-role">Role: Front-end Developer</span>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-header">
+                <h3>Portfolio Dashboard</h3>
+                <span class="project-tag">Python • Flask</span>
+              </div>
+              <p>
+                A minimal dashboard to track personal projects and skills, powered
+                by Python on the backend.
+              </p>
+              <div class="project-footer">
+                <span class="project-role">Role: Full-stack Developer</span>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-header">
+                <h3>Responsive Components</h3>
+                <span class="project-tag">HTML • CSS</span>
+              </div>
+              <p>
+                A collection of reusable UI components designed for speed and
+                reusability across projects.
+              </p>
+              <div class="project-footer">
+                <span class="project-role">Role: UI Developer</span>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="section" id="contact">
+          <div class="section-header">
+            <h2>Let’s Work Together</h2>
+            <p>Interested in collaborating or hiring me? Reach out below.</p>
+          </div>
+          <div class="contact-card">
+            <div class="contact-text">
+              <p>
+                I’m currently open to full-time roles, freelance projects, and
+                collaborations. Share a few details about your project or role, and
+                I’ll get back to you.
+              </p>
+            </div>
+            <form class="contact-form">
+              <div class="form-row">
+                <div class="form-field">
+                  <label for="name">Name</label>
+                  <input id="name" type="text" placeholder="Your name" />
+                </div>
+                <div class="form-field">
+                  <label for="email">Email</label>
+                  <input id="email" type="email" placeholder="you@example.com" />
+                </div>
+              </div>
+              <div class="form-field">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  rows="4"
+                  placeholder="Tell me about the role or project..."
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-full">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <span>© <span id="year"></span> Your Name. All rights reserved.</span>
+      </footer>
+    </div>
+
+    <script>
+      // Set current year in footer
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
+
